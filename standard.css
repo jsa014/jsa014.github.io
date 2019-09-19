@@ -1,0 +1,436 @@
+
+body					/* */
+{
+	background-color:blue;
+	display:block;
+	font-family:Tahoma;
+}
+
+
+
+
+a:link 					/* Unvisited link */
+{
+	text-decoration:none;
+	color:Black;
+}
+
+a:visited 				/* Visited link */
+{
+	text-decoration:none;
+	color:Black;
+}
+
+a:hover 				/* Mouse over link */
+{
+	text-decoration:underline;
+	color:Chocolate;
+}
+
+a:active 				/* Selected link */
+{
+	text-decoration:underline;
+}
+
+#logo					/* Egenskaper for logoen */
+{
+
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 20%;
+	
+}
+
+#bilde1					/* Egenskaper for logoen */
+{
+
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 20%;
+	
+}
+
+
+#imgE					/* Engelsk flagg*/
+{
+	float:right;
+	width:40px;
+	position:absolute;
+	top:25px;
+	right:10px;
+}
+
+#imgN					/* Norsk flagg*/
+{	
+	float:right;
+	width:40px;
+	position:absolute;
+	top:25px;
+	right:55px;
+}
+
+.storknappe				/* Hovedknapper*/
+{
+	width:20%;
+	padding:0px;
+	margin:0px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+#w3c					/* W3C-logo */
+{
+	width:80px;
+	float:right;
+	margin-top: 0px;
+	padding-left:1em;
+}
+
+#skrift1				/* */
+{
+	float:right;
+	width:30px;
+	height:25px;
+	position:absolute;
+	font-size:100%;
+	top:40px;
+	right:180px;
+}
+
+#skrift2				/* */
+{
+	float:right;
+	width:30px;
+	height:30px;
+	font-size:125%;
+	position:absolute;
+	top:35px;
+	right:145px;
+}
+
+#skrift3				/* */
+{
+	float:right;
+	width:30px;
+	height:35px;
+	font-size:150%;
+	position:absolute;
+	top:30px;
+	right:110px;
+}
+
+#skrift4				/* */
+{
+	float:right;
+	width:125px;
+	height:25px;
+	font-size:1.0em;
+	position:absolute;
+	top:40px;
+	right:215px;
+	font-family: 'eulexia';
+}
+
+#skrift5				/* */
+{
+	float:right;
+	width:125px;
+	height:25px;
+	font-size:1.0em;
+	position:absolute;
+	top:40px;
+	right:345px;
+}
+
+#bunnmeny				/* Dropdown-menyer */
+{	
+	padding:10px 0px;
+}
+
+#knapper				/* */
+{
+	
+	text-align:center;
+	margin-top:25px;
+}
+
+#meny					/* */
+{
+   	margin-top: 75px;
+    	text-align: left;
+	bottom:1px;
+	float:right;
+}
+
+hr 					/* hr-tag */
+{
+	width: 100%;
+}
+
+#hr2					/* Nedre hr-tag */
+{
+	margin: 25px 0px 0px 0px;
+}
+
+li					/* */
+{
+	display:inline-block;
+	list-style:none;
+	padding:0px 5px;
+	font-size:1.5em;	
+}
+
+p					/* */
+{
+	font-size:1.0em;
+	padding: 0px 15px;
+	
+}
+
+#p1					/* */
+{
+	font-size:2.0em;
+	padding:100px 0px 0px 0px;
+}
+
+#p2					/* */
+{	
+	
+	position:absolute;
+	left:260px;
+	top:330px;
+}
+
+#p3					/* */
+{
+	position:absolute;
+	left:260px;
+	top:370px;
+}
+
+#p4					/* */
+{
+	position:absolute;
+	left:260px;
+	top:420px;
+}
+
+h1					/* */
+{
+	float:right;
+	position:relative;
+	font-size:1.25em;
+}
+
+h2					/* */
+{
+	padding: 0px 0px 0px 15px;
+}
+
+.knapp2					/* */
+{
+	width:180px;
+	height:180px;
+	display:block;
+	padding:1% 12% 10% 5%;
+	float:left;
+}
+
+#php					/* Kontaktskjema */
+{
+	padding: 0px 0px 0px 15px;
+}
+
+#tekstrute				/* */
+{
+	
+	text-align:center;
+	margin:0px;
+	padding:0px;
+}
+
+#tekstrute1				/* */
+{
+	text-align:center;
+	display:inline-block;
+	width:30%;
+	padding:0px;
+	margin:0px;
+}
+
+#tekstrute2				/* */
+{
+	padding:0px;
+	margin:0px;
+	display:inline-block;
+	text-align:center;
+	width:30%;
+}
+
+#tekstrute3				/* */
+{
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	display:inline-block;
+	width:30%;
+}
+
+#leftframe				/* Ramme til venstre */
+{
+	position:fixed;
+	top:180px;
+	bottom:60px;
+	margin:0px 0px 0px 0px;
+	width:180px;
+	height:auto;
+	padding:0px;
+	border-right:1px solid gray;
+	overflow:auto;
+	display:inline-block;
+}
+
+#liste					/* Tittel i venstre ramme */
+{
+	text-indent:10px;
+	margin-left:0px;
+	margin-right:0px;
+	padding:0px;
+	font-size:1.2em;
+}
+
+.venster				/* P-tag i ramme*/
+{
+	margin:0px;
+	margin-top:2px;
+	text-align:justify;
+	margin-left:10px;
+	
+}
+
+#tilbake				/* Tilbakeknapp */
+{
+	margin-top:25px;
+	margin-left:50px;
+	font-size:1em;
+}
+
+#rightframe				/* Ramme til høyre */
+{
+	position:fixed;
+	top:180px;
+	bottom:60px;
+	margin:0px 0px 0px 0px;
+	right:0px;
+	width:150px;
+	height:auto;
+	padding:0px;
+	border-left:0px solid gray;
+	display:inline-block;
+}
+
+.OmBilde				/* Bilde i omtale */
+{
+	width:300px;
+	display:inline-block;
+	margin:0px;
+	margin-right:10px;
+	padding:0px;
+}
+
+.pUnderMedia 				/* P-tag under bilde eller video i Om */
+{
+	margin:0px;
+	margin-bottom:25px;
+	padding:0px;
+
+}
+
+#gruppebilde				/* Gruppebilde i Om siden */
+{
+	
+	width:600px;
+	height:448px;
+	margin:0px;
+	padding:0px;
+	
+}
+
+.sentrering				/*  Div for sentrering */
+{
+	width:auto;
+	text-align:center;
+}
+
+a.fargetlink				/* Klasse som gir linker oransje farge og understrek */
+{
+	color:chocolate;
+	text-decoration:underline;
+}
+
+a.tekstlink				/* Klasse som gir linker understrek */
+{
+	text-decoration:underline;
+}
+
+.dataemne				/* Tabell i Om studiene */
+{
+	margin:0px;
+	border:2px solid chocolate;
+	margin-left: 15px;
+	float:left;
+	border-radius:25px;
+	padding:10px;
+}
+
+#omramme
+{
+	width:auto;
+	display:inline-block;
+}
+
+#beskrivelse				/* Kort beskrivelse av kategori */ 
+{
+	text-align:center;
+}
+
+.studieteknikk
+{
+	font-size:1.2em;
+}
+
+.brodmargin
+{
+	margin:0px 150px 0px 150px;
+}
+li.studieteknikk2
+{
+	display:block;
+	font-size:1.0em;
+	margin:0px;
+	margin-bottom:5px;
+
+}
+
+.nopadding				/* h2 uten padding  */
+{
+	padding:0px;
+
+}
+	
+.brodtekst				/* P-tag i brødtekst om studieteknikk*/
+{
+	background:white;
+	padding:10px;
+	border-radius:25px;
+	border:2px solid chocolate;
+	display:inline-block;
+}
+
+ul.ulteknikk
+{
+	width:auto;
+	display:block;
+}
